@@ -32,72 +32,84 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
+<style>
+    body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+}
+</style>
+
 <body>
+    
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+        <div class="spinner-border" style="color:#3F77BC" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
 
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-0">
-        <div class="row g-0 d-none d-lg-flex">
+       
+        <div class="row g-0 d-none d-lg-flex" style="background: #3F77BC">
             <div class="col-lg-6 ps-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center text-white">
-                    <span>Follow Us:</span>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    <span class="fw-bold">DANMISHO NIGERIA ENTERPRISES</span>
                 </div>
             </div>
             <div class="col-lg-6 text-end">
-                <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
+                <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5" style="background: #3F778C">
                     <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
-                    <span class="fs-5 fw-bold">+012 345 6789</span>
+                    <span class="fs-5 fw-bold">+2347069723335, +2348033854906</span>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
-
+  
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-        <a href="index.html" class="navbar-brand ps-5 me-0">
-            <h1 class="text-white m-0">Industro</h1>
+        <a href="index.html" class="ps-5 me-0">
+            <img src="img/danmishologo1.png" class="text-white m-0" style="width:130px" />
         </a>
-        <button type="button" class="navbar-toggler me-0 border rounded-3 p-2" style="background: #badeeb"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon">
-                <i class="fas fa-bars"></i>
+        <span class="d-none d-lg-flex align-items-center justify-content-center" style="color: #1C466C; font-weight: bold; font-size: larger;">
+            <i class="fas fa-bars text-white"></i>
+            DANMISHO NIGERIA ENTERPRISES
+        </span>
+        
+        <button type="button" class="navbar-toggler me-0 border rounded-3 p-2" style="background-color:#3F77BC"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="">
+                <i class="fas fa-bars text-white"></i>
             </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="index.html" class="nav-item nav-link" style="color:#1C466C;">Home</a>
                 <div class="nav-item dropdown">
-                    <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                    <a href="about.html" class="nav-link">About Us</a>
                 </div>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="engine.html" class="dropdown-item">Engine Maintenances/General Overhauling</a>
-                        <a href="preventing.html" class="dropdown-item">Preventing and Corrective maintenance services</a>
-                        <a href="hydraulic.html" class="dropdown-item">Hydraulic Systems Repairs And Refurbished Services</a>
-                        <a href="refurbishing.html" class="dropdown-item">Building And Fabrication Of Hydraulic Hoses</a>
-                        <a href="heavy.html" class="dropdown-item">Heavy Equipment Sourcing and Haulage services</a>
-                        <a href="metal.html" class="dropdown-item">Chasis Repairs/Modification And Customed Fabrication</a>
-                        <a href="pressing.html" class="dropdown-item">Pressing Of Solid Tyres</a>
-                        <a href="assembling.html" class="dropdown-item">Equipment Leasing</a>
-                        <a href="manpower.html" class="dropdown-item">Manpower Supplies</a>
-                        <a href="heavyequipment.html" class="dropdown-item">Heavy Duty Spare Parts Procurement</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#1C466C;">Our Services</a>
+                    <div class="dropdown-menu m-0" style="background-color:#3F77BC;">
+                        <a href="engine.html" class="dropdown-item" style="color:white">Engine Maintenances/General <br>Overhauling</a>
+                        <a href="preventing.html" class="dropdown-item" style="color:white">Preventing and Corrective <br>maintenance services</a>
+                        <a href="hydraulic.html" class="dropdown-item" style="color:white">Hydraulic Systems Repairs And <br>Refurbished Services</a>
+                        <a href="refurbishing.html" class="dropdown-item" style="color:white">Building And Fabrication Of <br>Hydraulic Hoses</a>
+                        <a href="heavy.html" class="dropdown-item" style="color:white">Heavy Equipment Sourcing and <br>Haulage services</a>
+                        <a href="metal.html" class="dropdown-item" style="color:white">Chasis Repairs/Modification <br>And Customed Fabrication</a>
+                        <a href="pressing.html" class="dropdown-item" style="color:white">Pressing Of Solid Tyres</a>
+                        <a href="assembling.html" class="dropdown-item" style="color:white">Equipment Leasing</a>
+                        <a href="manpower.html" class="dropdown-item" style="color:white">Manpower Supplies</a>
+                        <a href="heavyequipment.html" class="dropdown-item" style="color:white">Heavy Duty Spare <br>Parts Procurement</a>
                     </div>
                 </div>
                 
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact.html" class="nav-item nav-link" style="color:#1C466C;">Contact</a>
             </div>
-            <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+            <!-- <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a> -->
         </div>
     </nav>
     <!-- Navbar End -->
@@ -106,12 +118,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Services</h1>
+            <h1 class="display-3 text-white animated slideInRight">About Us</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Services</li>
+                    
+                    <li class="breadcrumb-item active" aria-current="page">Our Services</li>
                 </ol>
             </nav>
         </div>
@@ -119,124 +131,93 @@
     <!-- Page Header End -->
 
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
-                <h1 class="display-5 mb-4">We Provide Best Industrial Services</h1>
+   <!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container align-items-center" >
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/p6.jpeg" alt="About DANMISHO NIGERIA">
             </div>
-            
+            <div class="col-lg-6">
+                <div>
+                    <p class="fw-medium text-uppercase  mb-2" style="color:#3F77BC">About Us</p>
+                    <h1 class="display-5 mb-4">MANPOWER SUPPLY
+                    </h1>
+                    <p class="mb-4" style="color: black;">
+                        DANMISHO offers one-off or standby manpower supply for the maintenance of heavy-duty equipment and machineries. 
+
+                    </p>
+                    <p class="" style="color: black;">
+                        Our years of experience has given us a competitive edge and unique capability to provide reliable one-off or standby staffing services.
+    
+                    </p>
+                </div>
+            </div>
         </div>
+        <div class="row mt-4">
+            <div class="col-lg-12">
+                
+                
+            </div>
+        </div>
+        
     </div>
-    <!-- Service End -->
+</div>
+<!-- About End -->
 
 
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-2">
-        <div class="col-12 text-center mb-4">
-            <h1 class="fw-bold text-primary">Danmisho Nigeria</h1>
-            <p class="lead">
-                Providing hydraulic repair and rebuild services for all brands of industrial hydraulic equipment.
-            </p>
-        </div>
-        <div class="row">
-            <!-- Image Section -->
-            <div class="col-md-6">
-                <img class="img-fluid rounded" src="img/dani11.jpeg" alt="Sample Image">
-            </div>
-            <!-- Text Section -->
-            <div class="col-md-6 mt-5">
-                <div class="row">
-                    <!-- Main Content Section -->
-                    <div class="col-lg-8 mx-auto">
-                        <p>
-                            DANMISHO is a leader in technical manpower supply, specializing in providing skilled engineering professionals and consultancy services tailored to meet the diverse needs of our clients. Whether for contract-based assignments or permanent staffing, we excel in sourcing, recruiting, and deploying highly trained personnel with expertise in maintaining and operating heavy-duty equipment and machinery.
-                        </p>
-                        <p>
-                            Our recruitment process is meticulous and focused on delivering top-tier talent. We understand the critical importance of having the right personnel to ensure the smooth operation and maintenance of heavy-duty equipment and machinery. This is why we prioritize candidates with proven expertise, hands-on experience, and a strong commitment to professional excellence.
-                        </p>
-                        <p>
-                            At DANMISHO, we are driven by a commitment to meeting and exceeding our clients' requirements. We achieve this by leveraging a deep understanding of industry-specific challenges, enabling us to deliver tailored staffing solutions that address both short-term project needs and long-term strategic goals. Our approach ensures that clients have access to reliable, skilled, and dependable professionals whenever and wherever they are needed.
-                        </p>
-                        <p>
-                            Our extensive experience in the field has equipped us with a competitive edge and a unique capability to provide high-quality, efficient, and dependable manpower services. Over the years, we have built a reputation for excellence by consistently meeting the complex demands of industries that rely on precision and expertise in heavy equipment and machinery maintenance.
-                        </p>
-                        <p>
-                            In addition to staffing, DANMISHO offers consultancy services aimed at enhancing operational efficiency, safety, and productivity. Our team of experts works closely with clients to provide guidance, technical insights, and strategic solutions that contribute to achieving their business objectives.
-                        </p>
-                        <p>
-                            Trust DANMISHO to be your reliable partner in technical manpower supply and consultancy. With our unwavering commitment to quality, professionalism, and client satisfaction, we aim to build lasting partnerships and provide services that drive success in today’s competitive industrial landscape.
-                        </p>
-                    </div>
-                    
+
+    
+
+
+   
+
+
+    
+        
+
+     <!-- Footer Start -->
+     <div class="container-fluid footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" style="background-color:#3F77BC">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-between align-items-center">
+                <!-- Left Section -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-4">Our Office</h5>
+                    <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i>17 Kpoluku st, Oroworukwo,
+                        Port Harcourt, Rivers State,
+                        Nigeria.</p>
+                    <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i>+2347069723335, +2348033854906</p>
+                    <p class="mb-2 text-white"><i class="fa fa-envelope me-3"></i>info@danmishonigeria.com</p>
+                </div>
+    
+                <!-- Right Section -->
+                <div class="col-lg-4 col-md-6 ">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link text-white" href="index.html">Home</a>
+                    <a class="btn btn-link text-white" href="about.html">About Us</a>
+                    <a class="btn btn-link text-white" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link text-white" href="service.html">Our Services</a>
+                </div>
             </div>
         </div>
     </div>
     
-    <!-- Testimonial End -->
-        
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Our Office</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Business Hours</h5>
-                    <p class="mb-1">Monday - Friday</p>
-                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
-                    <p class="mb-1">Saturday</p>
-                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
-                    <p class="mb-1">Sunday</p>
-                    <h6 class="text-light">Closed</h6>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative w-100">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Footer End -->
 
 
     <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark py-4">
+    <div class="container-fluid copyright py-4" style="background-color:#3F77BC">
         <div class="container text-center">
-            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">Your Site Name</a>, All Right Reserved.</p>
+            <p class="mb-2 text-white">Copyright &copy; <a class="fw-semi-bold text-white" href="#">Danmisho Nigeria</a>, All Right Reserved.</p>
             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+            <p class="mb-0"><a class="fw-semi-bold text-white" href="https://htmlcodex.com">www.danmishonigeria.com.ng</a></p>
         </div>
     </div>
     <!-- Copyright End -->
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-lg-square rounded-circle back-to-top" style="color:white; background-color:#183457"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
